@@ -1,12 +1,14 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body{
     margin: 0;
     padding: 0;
-    background: url(../img/background.jpg);
-    background-size: 100%;
+    background: url(/Assets/img/background-bottom-right.svg),url(/Assets/img/background-top-left.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: bottom right,bottom left ;
 }
 
 .navbar{
@@ -88,4 +90,39 @@ body{
     .navbar-links.active{
         display: flex;
     }
+}
+
+.section{
+    margin: 1rem;
+    display: flex;
+    color: black;
+    }
+
+.fotoPerfil{
+    width: 12rem;
+    border-radius: 15px;
+    filter: invert(20%);
+}
+.info p,h1{
+    font-size:large;
+    font-weight: 600;
+}
+.sobre-mi p,h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+i{
+    filter:invert(20%);
+    margin-right: 1rem;
+}
+hr{
+    border: 2px solid orange;
+    border-radius: 1px;
+    width: 100%;
+    
+}
+.info li{
+    list-style: none;
+    margin-left: -18%;
 }
