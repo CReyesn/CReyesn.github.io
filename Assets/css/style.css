@@ -1,14 +1,14 @@
 *{
     box-sizing: border-box;
-    
+    margin: 0;
+    padding: 0; 
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    
     background: url(/Assets/img/background-bottom-right.svg),url(/Assets/img/background-top-left.svg);
-    background-repeat: no-repeat,no-repeat;
-    background-position: bottom right,bottom left ;
+    background-repeat: no-repeat;
+    background-position: bottom right,top left ;
 }
 
 .navbar{
@@ -92,37 +92,95 @@ body{
     }
 }
 
-.section{
-    margin: 1rem;
-    display: flex;
-    color: black;
+.container{
+    margin-top: 100px;
     }
 
 .fotoPerfil{
     width: 12rem;
     border-radius: 15px;
-    filter: invert(20%);
 }
-.info p,h1{
+.info h1{
     font-size:large;
     font-weight: 600;
+    margin-top: .5rem;
 }
-.sobre-mi p,h2{
+.nombre p{
+    font-size:large;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+.sobre-mi h2{
     font-size: 2rem;
     font-weight: 600;
 }
-
+.titulo1 p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.titulo2{
+    font-size: 2rem;
+    font-weight: 600;
+}
 i{
-    filter:invert(20%);
+    filter:invert(10%);
     margin-right: 1rem;
+    margin-top: .5rem;
 }
 hr{
-    border: 2px solid orange;
+    border: solid 1px  orange;;
     border-radius: 1px;
     width: 100%;
     
 }
 .info li{
     list-style: none;
-    margin-left: -18%;
+    margin-left: 1%;
 }
+.info ul li{
+    margin-top: .5rem;
+    font-weight: 500;
+}
+.download{
+    border-radius: 15px;
+    width: 90%;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.carta{
+    border: 1px solid #333;
+    border-radius: 15px;
+
+}
+.carta h3,p,img{
+    margin-left: 1rem;
+}
+.api,.web,.sql{
+    height: 3rem;
+}
+.spring{
+    height: 2.5rem;
+}
+.DB{
+    height: 2.5rem;
+    margin-top: 5px; 
+}
+.oracle{
+    height: 2rem;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: white;
+  }
