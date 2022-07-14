@@ -9,6 +9,11 @@ body{
     background: url(/Assets/img/background-bottom-right.svg),url(/Assets/img/background-top-left.svg);
     background-repeat: no-repeat;
     background-position: bottom right,top left ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-top: 100px;
 }
 
 .navbar{
@@ -17,6 +22,7 @@ body{
     align-items: center;
     background-color: #333;
     color: white;
+    
 }
 
 .brand-title{
@@ -92,9 +98,6 @@ body{
     }
 }
 
-.container{
-    margin-top: 100px;
-    }
 
 .fotoPerfil{
     width: 12rem;
@@ -111,8 +114,9 @@ body{
     margin-top: .5rem;
 }
 .sobre-mi h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
+    
 }
 .titulo1 p{
     font-size: 2rem;
@@ -180,7 +184,9 @@ hr{
 
 footer {
     text-align: center;
-    padding: 3px;
+    padding-top: 10px;
     background-color: #333;
     color: white;
+    margin-top: auto;
+    
   }
