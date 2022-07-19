@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: auto;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .navbar{
@@ -28,9 +28,16 @@ body{
 .brand-title{
     font-size: 1.5rem;
     margin: .5rem;
-
+    
 }
-
+#brand{
+   color: white;
+   text-decoration: none;
+   padding: 1rem;
+}
+#brand:hover{
+    background-color: #555;
+}
 .navbar-links ul{
     margin: 0;
     padding: 0;
@@ -174,6 +181,45 @@ hr{
 }
 .oracle{
     height: 2rem;
+}
+.alink{
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.hab{
+    justify-content: space-between;
+    display: flex;
+    grid-template-columns: calc(33%-10px);
+    gap: 10px;
+}
+.habilidades ul li{
+    list-style: none;
+    color: white;
+    border-radius: 2rem;
+    height: 1.5rem;
+    background-color: rgba(68,86,108,.1);
+}
+.barra-progreso{
+    margin: 5px;
+    border-radius: 2rem;
+    height: 1.5rem;
+    background-color: rgba(68,86,108,.1);
+}
+.progreso{
+    align-items: center;
+    border-radius: inherit;
+    height: 100%;
+    padding: 0 0.75rem;
+    background-color: #304cfd;
+    font-size: .75rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.col-sm-4 p{
+    font-size: 1.5rem;
 }
 
 

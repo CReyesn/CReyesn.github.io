@@ -1,15 +1,80 @@
-<form
-  action="https://formspree.io/f/xqknvvjr"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Reyes | Desarrollador Full Stack Java</title>
+	<link rel="shortcut icon" href="assets/img/Status_iucn_CR_icon_blank.svg.png" type="image/x-icon">
+    <link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+	integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="/Assets/css/style.css"/>
+	
+</head>
+<body>
+    
+
+    <nav class="navbar fixed-top">
+      <div class="brand-title"><a href="/index.html" id="brand">Cristian Reyes</a></div>
+		<a href="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">
+			<ul>
+				<li><a href="/sobreMi.html">Sobre Mi</a></li>
+				<li><a href="/cv.html">Curriculum</a></li>
+				<li><a href="/portafolio.html">Portafolio</a></li>
+				<li><a href="/contacto.html">Contacto</a></li>
+
+			</ul>
+
+		</div>
+	</nav>
+
+
+
+
+<div class="container">
+  <div class="titulo1"><p>Formulario de Contacto</p></div>
+      <hr align="left">
+<form action="https://formspree.io/f/xqknvvjr" method="POST">
+<div class="row">
+<div class="form-group col-sm-5">
+  <label for="exampleFormControlInput1">Nombre</label>
+  <input name="name" type="text" class="form-control"  placeholder="Juan Perez">
+</div>
+
+  <div class="form-group col-sm-7">
+    <label for="exampleFormControlInput1">Correo Electrónico</label>
+    <input name="email" type="email" class="form-control"  placeholder="correo@mail.com">
+  </div>
+</div>
+  
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Escriba su Mensaje</label>
+    <textarea  name="message" rows="15" class="form-control"></textarea>
+  </div>
+  <button class="btn btn-danger" type="reset"><i class="fa-solid fa-trash"></i>Borrar Todo</button>
+  <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i>Enviar</button>
 </form>
+</div>
+
+<div class="container mt-5 mb-3">
+  <div class="titulo1"><p>Donde Encontrarme</p></div>
+      <hr align="left">
+<iframe style="width: 100%; height: 600px;" src="https://maps.google.com/maps?q=Santiago,%20Chile&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</div>
+
+<footer>
+  <p>© 2022 Todos los derechos reservados.</p>
+  </footer>
+  
+<script src="/Assets/js/script.js"></script>
+<script
+    src="https://kit.fontawesome.com/cc25e9a4c8.js" crossorigin="anonymous"></script>
+</body>
+</html>
