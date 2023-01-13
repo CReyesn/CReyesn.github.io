@@ -172,6 +172,10 @@ hr{
 .api,.web,.sql{
     height: 3rem;
 }
+
+.superhero{
+    height: 12rem;
+}
 .spring{
     height: 2.5rem;
 }
